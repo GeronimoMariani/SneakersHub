@@ -16,8 +16,16 @@ const NavBar = () => {
                     <li className="navItem productos">
                         <button className="navButton">PRODUCTOS <FiChevronDown /></button>
                         <ul className="subList">
-                            <li><button className="navButton">NIKE</button></li>
-                            <li><button className="navButton">ADIDAS</button></li>
+                            <ul className="nike">
+                                <li><button className="navButton">NIKE</button></li>
+                                <li>Air Force 1 Low</li>
+                                <li>Air Max</li>
+                            </ul>
+                            <ul className="adidas">
+                                <li><button className="navButton">ADIDAS</button></li>
+                                <li>Forum Bad Bunny</li>
+                                <li>Yeezy 350</li>
+                            </ul>
                         </ul>
                     </li>
                     <li className="navItem">
