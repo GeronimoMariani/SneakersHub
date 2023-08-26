@@ -1,6 +1,7 @@
 import "./styles.css"
 import { FiChevronDown } from "react-icons/fi";
 import logo from "../../assets/images/logo.png";
+import InputSearch from "./InputSearch";
 
 const NavBar = () => {
     return (
@@ -17,14 +18,14 @@ const NavBar = () => {
                         <button className="navButton">PRODUCTOS <FiChevronDown /></button>
                         <ul className="subList">
                             <ul className="nike">
-                                <li><button className="navButton">NIKE</button></li>
-                                <li>Air Force 1 Low</li>
-                                <li>Air Max</li>
+                                <li><button className="navButton titulo">Nike</button></li>
+                                <li><button className="navButton">Air Force 1 Low</button></li>
+                                <li><button className="navButton">Air Max</button></li>
                             </ul>
                             <ul className="adidas">
-                                <li><button className="navButton">ADIDAS</button></li>
-                                <li>Forum Bad Bunny</li>
-                                <li>Yeezy 350</li>
+                                <li><button className="navButton titulo">Adidas</button></li>
+                                <li><button className="navButton">Forum Bad Bunny</button></li>
+                                <li><button className="navButton">Yeezy 350</button></li>
                             </ul>
                         </ul>
                     </li>
@@ -33,6 +34,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </div>
+            <InputSearch />
         </nav>
     );
 }

@@ -1,0 +1,31 @@
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 400px;
+    height: 2.2rem;
+    border-radius: .7rem;
+    border: 0;
+    padding: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.AiOutlineSearch {
+    color: white;
+    margin-right: 5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: .3rem;
+}

@@ -44,6 +44,10 @@
     color: black;
 }
 
+.subList > ul > li > button:hover {
+    text-decoration: underline;
+}
+
 .productos:hover > .subList {
     display: flex;
     justify-content: space-around;
@@ -51,13 +55,16 @@
 
 .nike > li {
     padding: 0.4rem;
-    font-size: 20px;
 }
 
 .adidas > li {
     padding: 0.4rem;
-    font-size: 20px;
 }
+
+.titulo {
+    font-size: 26px;
+}
+
 
 .logo {
     width: 5rem;
